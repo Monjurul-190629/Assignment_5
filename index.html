@@ -65,8 +65,8 @@
                         </div>
                         <div class="navbar-end">
                           <div class = "flex justify-center px-5 py-2  border-[#1DD100] border-2 text-[#1DD100]  rounded-lg bg-slate-100 gap-1">
-                            <p class = "font-bold">Bus</p>
-                            <img src = "images/bus-icon.png" class = "w-5">
+                            <a class = "font-bold flex gap-2" href = "#final_section">Bus<img src = "images/bus-icon.png" class = "w-5"></a>
+                            
                           </div>
                         </div>
                       </div>
@@ -82,7 +82,7 @@
                 <h1 class = "text-white text-7xl font-bold">End-to-End-Travel With</h1>
                 <h1 class = "text-[#1DD100] text-7xl font-bold">P Paribahan</h1>
                 <p class = "text-gray-100 text-xl w-3/5 text-center mt-4">Our journey is not just about reaching a destination; it's about the experiences we gather along the way. </p>
-                <button class = "bg-[#1DD100] font-bold rounded-md px-3 py-2 mt-5">Buy Tickets</button>
+                <button class = "bg-[#1DD100] font-bold rounded-md px-3 py-2 mt-5"><a href = "#final_section">Buy Tickets</a></button>
             </div>
         </section>
 
@@ -110,7 +110,7 @@
                             <p class = "text-gray-800 mt-2">Use by February 24</p>
                         </div>
                         <div>
-                            <h1 class = "text-3xl font-bold">Couple20</h1>
+                            <h1 class = "text-3xl font-bold">Couple 20</h1>
                             <p class = "text-xl text-orange-900 mt-2">Coupon Code</p>
                         </div>
                     </div>
@@ -124,7 +124,7 @@
 
 
         <!-- Final Section -->
-       <section id = "" class = "bg-slate-100 mx-24 p-20 flex justify-between items-center gap-10">
+       <section id = "final_section" class = "bg-slate-100 mx-24 p-20 flex justify-between items-center gap-10">
         <div class = "flex-1">
             <div class="navbar">
                 <div class="navbar-start flex flex-row gap-4">
@@ -267,10 +267,14 @@
             </div>
             <div class = "flex justify-between py-5 border-t-2 border-gray-600">
                 <p class = "text-xl font-bold">Total Price</p>
-                <p class = "text-xl font-semibold">BDT <span id = "" class = "text-xl">0</span></p>
+                <p class = "text-xl font-semibold">BDT <span id = "total_amount" class = "text-xl">0</span></p>
             </div>
-            <div class = "flex justify-between py-5">
-                <input type = "text" placeholder = "Have you any coupon ?" class = "bg-slate-50 p-2 rounded-lg"> <button id = "" onclick = "" class = "bg-[#1DD100] px-3 py-1 rounded-lg text-white ">Apply</button>
+            <div class = "flex justify-between py-5" id="Cupon_div">
+                <input type = "text" placeholder = "Have you any coupon ?" id = "cupon_text" class = "bg-slate-50 p-2 rounded-lg" disabled> <button id = "cupon_id" onclick = "after_discount()" class = "bg-[#1DD100] px-3 py-1 rounded-lg text-white " disabled>Apply</button>
+            </div>
+            <div class = "flex justify-between py-2">
+                <p class = "text-xl font-bold">Grand Total</p>
+                <p class = "text-xl font-semibold">BDT <span id = "grand_amount" class = "text-xl">0</span></p>
             </div>
             <div class = "form py-10">
                 <label class = "py-5 text-xl font-semibold">Passenger's Name*</label><br>
