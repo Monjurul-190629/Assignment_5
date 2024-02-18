@@ -65,7 +65,7 @@
                         </div>
                         <div class="navbar-end">
                           <div class = "flex justify-center px-5 py-2  border-[#1DD100] border-2 text-[#1DD100]  rounded-lg bg-slate-100 gap-1">
-                            <a class = "font-bold flex gap-2" href = "#final_section">Bus<img src = "images/bus-icon.png" class = "w-5"></a>
+                            <a class = "font-bold flex gap-2 text-xl" href = "#final_section">Bus<img src = "images/bus-icon.png" class = "w-7"></a>
                             
                           </div>
                         </div>
@@ -124,54 +124,61 @@
 
 
         <!-- Final Section -->
-       <section id = "final_section" class = "bg-slate-100 mx-24 p-20 flex justify-between items-center gap-10">
-        <div class = "flex-1">
-            <div class="navbar">
-                <div class="navbar-start flex flex-row gap-4">
-                  <div>
-                    <img src = "images/bus-logo.png">
-                  </div>
-                  <div>
-                    <p class = "text-4xl font-bold">P Paribahan</p>
-                    <p class = "text-xl">Coach-009-WEB ! AC_Business</p>
-                  </div>
-                </div>
-                
-                <div class="navbar-end flex">
-                  
-                  <p id = "" class = "text-[#1DD100] text-2xl  p-4 font-semibold flex gap-2 bg-slate-200">
-                    <img src = "images/seat-green.png">
-                    <span id = "remaining_seat" class = "font-bold text-2xl">40</span> Seats left
-                  </p>
-                </div>
+       <section id = "final_section" class = " border-2 border-t-green-700 rounded-3xl">
+            <div class = "flex flex-col justify-center mt-4">
+                <h1 class = "text-3xl text-gray-900 text-center py-2">Our Paribahan</h1>
+                <p class = "text-xl text-gray-800 text-center py-2">Our journey is not just about reaching a destination; it's about the experiences we gather along the way.</p>
             </div>
-
-            <div class = "">
-                <div class = "flex justify-between bg-slate-200 p-10">
-                    <div class = "">
-                         <h3 class = "text-2xl mt-8 text-gray-600">Route</h3>
-                         <h3 class = "text-2xl mt-8 text-gray-600">Departure time</h3>
-                    </div>
-                    <div class = "">
-                         <h3 class = "text-2xl mt-8 text-black font-semibold">Dhaka - Sylet</h3>
-                         <h3 class = "text-2xl mt-8 text-black font-semibold">9.00 AM</h3>
-                    </div>
-                </div>
-
-                <div class = "flex justify-evenly bg-slate-200 py-5">
-                    <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Boarding point -Laxmipur</h2>
-                    <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Dropping point Bogura</h2>
-                    <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Est. time 11 Hour</h2>
-                </div>
-            </div>
+            <div class = "bg-slate-100 p-20 flex justify-between items-center gap-10">
+                <div class = "flex-1 mx-24 ">
             
-
-        </div>
-        <div class = "">
-            <img src = "images/fare.png">
-            <h3 class ="text-5xl font-semibold italic mt-5">550 taka</h3>
-            <h3 class = "text-2xl text-gray-600 mt-5">Per seat</h3>
-        </div>
+                    <div class="navbar">
+                        <div class="navbar-start flex flex-row gap-4">
+                          <div>
+                            <img src = "images/bus-logo.png">
+                          </div>
+                          <div>
+                            <p class = "text-4xl font-bold">P Paribahan</p>
+                            <p class = "text-xl">Coach-009-WEB ! AC_Business</p>
+                          </div>
+                        </div>
+                        
+                        <div class="navbar-end flex">
+                          
+                          <p id = "" class = "text-[#1DD100] text-2xl  p-4 font-semibold flex gap-2 bg-slate-200">
+                            <img src = "images/seat-green.png">
+                            <span id = "remaining_seat" class = "font-bold text-2xl">40</span> Seats left
+                          </p>
+                        </div>
+                    </div>
+        
+                    <div class = "">
+                        <div class = "flex justify-between bg-slate-200 p-10">
+                            <div class = "">
+                                 <h3 class = "text-2xl mt-8 text-gray-600">Route</h3>
+                                 <h3 class = "text-2xl mt-8 text-gray-600">Departure time</h3>
+                            </div>
+                            <div class = "">
+                                 <h3 class = "text-2xl mt-8 text-black font-semibold">Dhaka - Sylet</h3>
+                                 <h3 class = "text-2xl mt-8 text-black font-semibold">9.00 AM</h3>
+                            </div>
+                        </div>
+        
+                        <div class = "flex justify-evenly bg-slate-200 py-5">
+                            <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Boarding point -Laxmipur</h2>
+                            <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Dropping point Bogura</h2>
+                            <h2 class = "bg-slate-400 p-4 text-xl font-semibold rounded-lg">Est. time 11 Hour</h2>
+                        </div>
+                    </div>
+                    
+        
+                </div>
+                <div class = "">
+                    <img src = "images/fare.png">
+                    <h3 class ="text-5xl font-semibold italic mt-5">550 taka</h3>
+                    <h3 class = "text-2xl text-gray-600 mt-5">Per seat</h3>
+                </div>
+            </div>
         
        
        </section>
@@ -280,10 +287,10 @@
                 <label class = "py-5 text-xl font-semibold">Passenger's Name*</label><br>
                 <input type = "text" placeholder = "Enter your name" class = "my-5 px-3 py-2"><br>
                 <label class = "py-5 text-xl font-semibold">Phone Number</label><br>
-                <input type = "text" placeholder = "Enter your number" class = "my-5 px-3 py-2"><br>
+                <input type = "text" placeholder = "Enter your number" class = "my-5 px-3 py-2" id = "num"><br>
                 <label class = "py-5 text-xl font-semibold">Email-id</label><br>
                 <input type = "email" placeholder = "Enter your email" class = "my-5 px-3 py-2"><br>
-                <button class = "bg-[#1DD100] w-full py-2 text-white font-bold rounded-lg">Next</button>
+                <a href = "success.html" id = "next_button" disabled class = "btn bg-[#1DD100] w-full py-2 text-white font-bold rounded-lg hover:bg-white hover:text-black hover:border-2 hover:border-[#1DD100]">Next</a>
             </div>
             <div class = "flex gap-5">
                 <a href = "#" class = "underline font-serif text-gray-800">Terms and conditions</a>
@@ -293,10 +300,36 @@
        </div>
     </main>
 
-    <footer>
-
+    <footer class = "bg-gray-900 mt-32 px-20 py-16">
+        <div class = "flex justify-between items-center text-white pb-10 border-b-2 border-dotted border-white">
+            <div class = "">
+                <p class = "text-2xl font-bold py-2">P-ticket</p>
+                <p class = "text-xl py-1">P-Ticket is a digital platform to make your <br>
+                    daily commuting better.</p>
+            </div>
+            <div class = "">
+                <p class = "text-xl py-1">Download our app</p>
+                <div class = "flex gap-2 mt-2 border-2 border-white rounded-xl p-2">
+                    <img src = "images/playstore.png">
+                    <div class = "">
+                        <p class = "">Get it on</p>
+                        <p class = "">Google play</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class = "py-5 flex justify-between">
+            <div class = "">
+                <p class = "text-xl text-gray-400">@all rights reserved, P-Ticket services limited.2024</p>
+            </div>
+            <div class = "flex justify-center text-white gap-4 font-semibold">
+                <a href = "">Terms & Condition</a>
+                <a href = "">Return & refund policy</a>
+                <a href = "">Privacy policy</a>
+            </div>
+        </div>
     </footer>
-
     <script src = "seatControl.js">
         
     </script>

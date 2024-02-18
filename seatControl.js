@@ -78,8 +78,9 @@ function seatHandle(event){
 
     /// check Next Button
     var n1 = document.getElementById("num");
-    if(n1.value.length > 8 && b2 > 0){
-        var nbutton = document.getElementById("");
+    if(n1.value.length > 5 || b2 > 0){
+        var n_button = document.getElementById("next_button");
+        n_button.removeAttribute("disabled");
     }
 
 }
